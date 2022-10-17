@@ -1,16 +1,16 @@
-TweenLite.set(".center", {
-  xPercent: -50,
-  yPercent: -50,
+TweenLite.set("#center", {
+  xPercent: 200,
+  yPercent: 200,
 });
 
 TweenMax.to("#earth", 4, {
-  bezier: getBezier(250, 250, 250, 250, true),
+  bezier: getBezier(200, 200, 250, 250, true),
   repeat: -1,
   ease: Linear.easeNone,
 });
 
 TweenMax.to("#saturn", 2, {
-  bezier: getBezier(250, 250, -200, -200, true),
+  bezier: getBezier(200, 200, -200, -200, true),
   repeat: -1,
   ease: Linear.easeNone,
 });
