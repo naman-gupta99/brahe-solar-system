@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+.circle{
+  position:relative;
+  width:500px;
+  height:500px;
+  border:1px solid #000;
+  border-radius:50%;
+  
+  top: 50px;
+  left: 50px;
+  box-sizing: border-box;
+}
+
+.absolute {
+    position: absolute;
+}
