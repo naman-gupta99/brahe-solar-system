@@ -3,6 +3,12 @@ TweenLite.set("#center", {
   yPercent: 200,
 });
 
+TweenMax.to("#mercury", 1, {
+  bezier: getBezier(200, 200, -100, -100, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
 TweenMax.to("#earth", 4, {
   bezier: getBezier(200, 200, 250, 250, true),
   repeat: -1,
