@@ -2,6 +2,12 @@ html, body {
   height: 100%;
 }
 
+body{
+  background: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .circle{
   position:relative;
   width:500px;
