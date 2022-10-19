@@ -6,7 +6,7 @@ html, body {
 }
 
 body{
-  background: url(bg.jpg);
+  background: url(bg.svg);
   background-repeat: no-repeat;
   background-size:cover;
 }
