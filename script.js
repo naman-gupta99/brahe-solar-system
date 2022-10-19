@@ -4,19 +4,25 @@ TweenLite.set("#center", {
 });
 
 TweenMax.to("#mercury", 1, {
-  bezier: getBezier(200, 200, -100, -100, true),
+  bezier: getBezier(200, 200, 100, 100, true),
   repeat: -1,
   ease: Linear.easeNone,
 });
 
-TweenMax.to("#earth", 4, {
+TweenMax.to("#venus", 2, {
+  bezier: getBezier(200, 200, 150, 150, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
+TweenMax.to("#earth", 3, {
+  bezier: getBezier(200, 200, 200, 200, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
+TweenMax.to("#saturn", 7, {
   bezier: getBezier(200, 200, 250, 250, true),
-  repeat: -1,
-  ease: Linear.easeNone,
-});
-
-TweenMax.to("#saturn", 2, {
-  bezier: getBezier(200, 200, -200, -200, true),
   repeat: -1,
   ease: Linear.easeNone,
 });
