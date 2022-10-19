@@ -5,6 +5,12 @@ html, body {
   justify-content: center;
 }
 
+body{
+  background: url(bg.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 .circle{
   position:relative;
   width:500px;
