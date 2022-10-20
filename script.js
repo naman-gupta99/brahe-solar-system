@@ -21,6 +21,13 @@ TweenMax.to("#earth", 3, {
   ease: Linear.easeNone,
 });
 
+TweenMax.to("#jupiter", 5, {
+  bezier: getBezier(200, 200, 350, 350, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
+
 TweenMax.to("#saturn", 7, {
   bezier: getBezier(200, 200, 250, 250, true),
   repeat: -1,
