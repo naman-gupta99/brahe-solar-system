@@ -21,8 +21,15 @@ TweenMax.to("#earth", 3, {
   ease: Linear.easeNone,
 });
 
-TweenMax.to("#saturn", 7, {
+TweenMax.to("#mars", 4, {
   bezier: getBezier(200, 200, 250, 250, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
+
+TweenMax.to("#saturn", 7, {
+  bezier: getBezier(200, 200, 450, 450, true),
   repeat: -1,
   ease: Linear.easeNone,
 });
