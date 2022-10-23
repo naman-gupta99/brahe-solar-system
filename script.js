@@ -41,6 +41,18 @@ TweenMax.to("#saturn", 7, {
   ease: Linear.easeNone,
 });
 
+TweenMax.to("#uranus", 8, {
+  bezier: getBezier(200, 200, 550, 550, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
+TweenMax.to("#neptune", 9, {
+  bezier: getBezier(200, 200, 650, 650, true),
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+
 function getBezier(cx, cy, rx, ry, autoRotate) {
   ry = ry || rx;
 
